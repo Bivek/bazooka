@@ -17,7 +17,7 @@ module Ansible
   end
 
   def spin_up_bg_server(params)
-    `ansible-playbook #{playbooks_path}/bg_server_playbook.yml --extra-vars "platform=#{params['platform']}"`
+    `ansible-playbook #{playbooks_path}/bg_server_playbook.yml --extra-vars "platform=#{params['platform']} queue=#{params['queue']}"`
   end
 
   def playbooks_path
