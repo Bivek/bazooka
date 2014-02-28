@@ -1,4 +1,4 @@
 bazooka
 =======
 Inline-style: 
-![alt text](https://github.com/Bivek/bazooka/images/logo.jpg "Bazooka!!!")
+![alt text](https://github.com/Bivek/bazooka/blob/master/images/logo.jpg "Bazooka!!!")
