@@ -1,16 +1,12 @@
 gem 'sinatra'
-gem 'grape'
-
 gem 'sinatra-accept-params'
-gem 'redis'
 gem 'tux'
 gem 'colorize'
 
 gem 'capistrano'
 gem 'rvm-capistrano'
-
 gem 'newrelic_rpm'
-gem 'newrelic-redis'
+gem 'json'
 
 group :development do
   gem 'pry'
