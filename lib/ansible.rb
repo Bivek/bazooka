@@ -6,7 +6,7 @@ module Ansible
   require_relative './utils.rb'
 
   def play(params)
-    params = JSON.parse(params) || params
+    params = JSON.parse(params) rescue params
     if params.shutdown_server?
       shutdown_server(params)
     else

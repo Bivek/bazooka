@@ -1,5 +1,4 @@
 gem 'sinatra'
-gem 'sinatra-accept-params'
 gem 'tux'
 gem 'colorize'
 
